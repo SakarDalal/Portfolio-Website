@@ -1,0 +1,30 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.vscode/
+*.vs/
+*.vsconfig
+*.dbmdl
+
+# Node modules
+node_modules/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.swp
+*.swo
+
+# Logs
+*.log
+*.dmp
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
