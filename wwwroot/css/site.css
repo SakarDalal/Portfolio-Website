@@ -1,0 +1,152 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #642B73 0%, #C6426E 100%);
+    padding-top: 56px; /* Adjust for fixed navbar height */
+    color: #f4f4f4; /* Set text color for contrast */
+    background-attachment: fixed;
+}
+
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the navbar */
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+a.nav-link {
+    color: #ddd;
+    transition: color 0.3s;
+}
+
+    a.nav-link:hover {
+        color: #ffffff;
+    }
+
+.container {
+    max-width: 960px; /* Limiting container width for better readability */
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 70px; /* Adjust this value if your navbar height is different */
+}
+
+section {
+    padding: 60px 0; /* Optional: Add padding to your sections */
+}
+
+.fade-in {
+    opacity: 0; /* Start hidden for animation */
+}
+
+.animate__animated.animate__fadeIn {
+    opacity: 1 !important; /* Ensure visibility when animated */
+}
+
+/* Background for the jumbotron */
+.jumbotron {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)); /* Subtle gradient from dark to lighter black */
+    color: white; /* Ensure text color contrasts with the background */
+    padding: 100px 0; /* Adjust padding as needed */
+    margin-bottom: 50px; /* Spacing below the jumbotron */
+}
+
+/* Background for the projects section */
+#projects {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)); /* Subtle gradient from dark to lighter black */
+    padding: 100px 0; /* Add padding for spacing inside the section */
+    color: white; /* Ensure text color contrasts with the background */
+}
+
+/* Background for the resume section */
+#resume {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)); /* Subtle gradient from dark to lighter black */
+    padding: 100px 0;
+    color: white; /* Ensure text color contrasts with the background */
+}
+
+/* Background for the contact section */
+#contact {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)); /* Subtle gradient from dark to lighter black */
+    padding: 100px 0;
+    color: white; /* Ensure text color contrasts with the background */
+}
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #642B73 0%, #C6426E 100%);
+    padding-top: 56px;
+    color: #f4f4f4;
+    background-attachment: fixed;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+/* Projects, Resume, Contact Sections */
+section {
+    padding: 60px 15px; /* Added horizontal padding for mobile */
+}
+
+.card {
+    margin-bottom: 20px; /* Ensure spacing between cards */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 60px 0; /* Adjust padding for smaller screens */
+    }
+
+    .card {
+        margin-bottom: 15px; /* Adjust spacing for smaller screens */
+    }
+
+    .container {
+        padding: 0 15px; /* Add horizontal padding for small screens */
+    }
+
+    /* Adjust column layout for smaller screens */
+    .row > div {
+        flex: 0 0 100%; /* Make each column full width */
+        max-width: 100%;
+    }
+}
+img {
+    max-width: 100%; /* Ensure images fit within their container */
+    height: auto; /* Maintain aspect ratio */
+}
+.btn {
+    padding: 10px 20px; /* Increase button size for easier clicking */
+    font-size: 16px; /* Adjust font size for readability */
+}
