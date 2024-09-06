@@ -48,6 +48,6 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.PortfolioWebsite2003_CC29 }}
+        publish-profile: ${{ secrets.PORTFOLIOWEBSITE2003_CC29 }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
