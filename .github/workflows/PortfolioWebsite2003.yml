@@ -7,10 +7,10 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: PortfolioWebsite2003
-  AZURE_WEBAPP_PACKAGE_PATH: ./published
+  AZURE_WEBAPP_PACKAGE_PATH: "C:/Sakar's stuff/Portfolio Website/published"
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 7.0.x
-  WORKING_DIRECTORY: C:\Sakar's stuff\Portfolio Website
+  WORKING_DIRECTORY: "C:/Sakar's stuff/Portfolio Website"
 
 jobs:
   build:
